@@ -3,6 +3,9 @@ Button {
     color:#fff;
     font-size:15px;
     font-weight:bold;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 1;
     &.active {
         color: #FFEB3B;
     }

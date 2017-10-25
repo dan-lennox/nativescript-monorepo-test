@@ -5,7 +5,7 @@
     },
     "home": {
         "title": "Home",
-        "description": "This component is part of a module that was directly imported into the main AppModule."
+        "description": "Hooray! This component is part of a module that was directly imported into the main AppModule."
     },
     "about": {
         "title": "About",
