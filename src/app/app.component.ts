@@ -5,25 +5,29 @@ import { TranslateService } from '@ngx-translate/core';
 import { MenuItem } from './menu/menu.common';
 
 @Component({
-    moduleId: module.id,
-    selector: 'maestro-app',
-    templateUrl: './app.component.html',
+  moduleId: module.id,
+  selector: 'maestro-app',
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
 
-    menuItems: MenuItem[] = [
-        {
-            title: 'menu.home',
-            link: ['/home']
-        },
-        {
-            title: 'menu.about',
-            link: ['/about']
-        }
-    ];
-
-    constructor(translate: TranslateService) {
-        translate.setDefaultLang('en');
-        translate.use('en');
+  menuItems: MenuItem[] = [
+    {
+      title: 'menu.home',
+      link: ['/home']
+    },
+    {
+      title: 'menu.about',
+      link: ['/about']
+    },
+    {
+      title: 'menu.videos',
+      link: ['/videos']
     }
+  ];
+
+  constructor(translate: TranslateService) {
+    translate.setDefaultLang('en');
+    translate.use('en');
+  }
 }

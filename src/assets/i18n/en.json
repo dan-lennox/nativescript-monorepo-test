@@ -1,17 +1,22 @@
 {
-    "menu": {
-        "home": "Home",
-        "about": "About"
-    },
-    "home": {
-        "title": "Home",
-        "description": "Hooray! This component is part of a module that was directly imported into the main AppModule."
-    },
-    "about": {
-        "title": "About",
-        "description": "This component was rendered from a lazy-loaded module."
-    },
-    "phone": {
-        "edition": "Phone Edition!"
-    }
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "videos": "Videos"
+  },
+  "home": {
+    "title": "Home",
+    "description": "Hooray! Woo! This component is part of a module that was directly imported into the main AppModule."
+  },
+  "about": {
+    "title": "About",
+    "description": "This component was rendered from a lazy-loaded module."
+  },
+  "videos": {
+    "title": "Inspection Videos",
+    "description": "Check out our inspection videos!"
+  },
+  "phone": {
+    "edition": "Phone Edition!"
+  }
 }
