@@ -25,6 +25,8 @@
 !.vscode/extensions.json
 
 # misc
+mkmf.log
+.gradle
 /.sass-cache
 /connect.lock
 /coverage
