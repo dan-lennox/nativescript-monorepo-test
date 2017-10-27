@@ -6,11 +6,11 @@
   },
   "home": {
     "title": "Home",
-    "description": "Hooray!!!!!! Woo! This component is part of a module that was directly imported into the main AppModule."
+    "description": "Thanks for the memories B!"
   },
   "about": {
     "title": "About",
-    "description": "This component was rendered from a lazy-loaded module."
+    "description": "Much informations"
   },
   "videos": {
     "title": "Inspection Videos",
