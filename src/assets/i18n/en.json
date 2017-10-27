@@ -6,7 +6,7 @@
   },
   "home": {
     "title": "Home",
-    "description": "Hooray! Woo! This component is part of a module that was directly imported into the main AppModule."
+    "description": "Hooray!!!!!! Woo! This component is part of a module that was directly imported into the main AppModule."
   },
   "about": {
     "title": "About",
@@ -14,7 +14,7 @@
   },
   "videos": {
     "title": "Inspection Videos",
-    "description": "Check out our inspection videos!"
+    "description": "Check out our inspection videos!!!"
   },
   "phone": {
     "edition": "Phone Edition!"

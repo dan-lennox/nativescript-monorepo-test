@@ -1,7 +1,19 @@
-<StackLayout>
-  <Label class="h1 title"
-    [text]="'videos.title' | translate"></Label>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+        xmlns:VideoPlayer="nativescript-videoplayer">
 
-  <Label class="p description" textWrap="true" row="1"
-         [text]="'videos.description' | translate"></Label>
-</StackLayout>
+  <ScrollView orientation="vertical">
+    <StackLayout>
+
+      <Label class="h1 title"
+             [text]="'videos.title' | translate"></Label>
+
+      <Label class="p description" textWrap="true" row="1"
+             [text]="'videos.description' | translate"></Label>
+
+      <seed-video [id]="'0B9Ee9CX-F8BJczltTWhrU05PcDg'"></seed-video>
+      <seed-video [id]="'0B9Ee9CX-F8BJTG1ETnV2VzBUNFk'"></seed-video>
+      <seed-video [id]="'0B9Ee9CX-F8BJNUE2WWtxWWwzMkU'"></seed-video>
+
+    </StackLayout>
+  </ScrollView>
+</Page>
